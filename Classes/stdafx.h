@@ -1,7 +1,7 @@
 #ifndef __STDAFX_H__
 #define __STDAFX_H__
 
-//증분 빌드를 위한 헤더입니다. precompiled header라고 합니다.
+//증분 빌드를 위한 헤더입니다a. precompiled header라고 합니다.
 //C++에서는 첫번째 빌드에서는 느리지만 두번째 빌드부터 속도가 더욱 빨라지는
 //증분 빌드를 지원합니다.
 
