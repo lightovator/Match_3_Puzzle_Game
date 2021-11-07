@@ -25,6 +25,7 @@
 #include "stdafx.h"
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#include "SceneIngame.h"
 
 // #define USE_AUDIO_ENGINE 1
 
@@ -110,7 +111,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    //auto scene = HelloWorld::createScene();
+    auto scene = SceneIngame::create();
 
     //창 크기를 줄여주는 코드입니다.
     director->getOpenGLView()->setFrameZoomFactor(0.75);
